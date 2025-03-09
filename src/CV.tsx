@@ -1,4 +1,4 @@
-import { CVData } from "./Data";
+import { CVData } from "./Data.example";
 
 import Sidebar from "./Components/Sidebar";
 import SidebarHeader from "./Components/Sidebar/Header";
