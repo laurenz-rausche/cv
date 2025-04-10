@@ -1,10 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import CV from './CV.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
 
-createRoot(document.getElementById('root')!).render(
+import Cover from "./Cover";
+import CV from "./CV";
+
+import { CVData } from "./Data.example";
+
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <CV />
-  </StrictMode>,
-)
+    <Cover CVData={CVData} />
+    <CV CVData={CVData} />
+  </StrictMode>
+);

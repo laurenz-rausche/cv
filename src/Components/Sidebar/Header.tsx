@@ -7,8 +7,8 @@ function SidebarHeader({
 }) {
   return (
     <div className="pl-4">
-      <h1 className="text-white text-xl font-semibold">{heading}</h1>
-      {subheading ? <h2 className="text-white text-sm">{subheading}</h2> : ""}
+      <h3 className="text-white text-xl font-semibold">{heading}</h3>
+      {subheading ? <h4 className="text-white text-sm">{subheading}</h4> : ""}
     </div>
   );
 }

@@ -9,7 +9,7 @@ function ContentSection({
 }) {
   return (
     <div className="space-y-2">
-      <h2 className="text-sky-800 text-xl font-medium">{heading}</h2>
+      <h3 className="text-sky-800 text-xl font-medium">{heading}</h3>
       <hr className="border-t-1 border-gray-400" />
       <div className="space-y-4">{children}</div>
     </div>

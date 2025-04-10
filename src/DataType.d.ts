@@ -26,6 +26,10 @@ type ContentSection = {
   }[][];
 };
 export type Data = {
+  cover?: {
+    heading: string;
+    subheading?: string;
+  };
   sidebar: {
     data: (SidebarHeader | SidebarInfo | SidebarList)[];
     note?: {

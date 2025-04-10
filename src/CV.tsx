@@ -1,4 +1,4 @@
-import { CVData } from "./Data.example";
+import { Data } from "./DataType";
 
 import Sidebar from "./Components/Sidebar";
 import SidebarHeader from "./Components/Sidebar/Header";
@@ -10,7 +10,7 @@ import Content from "./Components/Content";
 import ContentSection from "./Components/Content/Section";
 import ContentRow from "./Components/Content/Row";
 
-function CV() {
+function CV({ CVData }: { CVData: Data }) {
   return (
     <Sidebar
       note={CVData.sidebar.note}

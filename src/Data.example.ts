@@ -9,6 +9,11 @@ import GithubIcon from "./Assets/github.svg";
 import LinkedInIcon from "./Assets/linkedin.svg";
 
 export const CVData: Data = {
+  //cover is optional!
+  cover: {
+    heading: "Heading",
+    subheading: "A smaller subheading!",
+  },
   sidebar: {
     data: [
       {
