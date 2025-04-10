@@ -39,6 +39,7 @@ export const CVData: Data = {
             heading: "Telefon",
             value: {
               name: "1234567890",
+              href: "tel:+1234567890"
             },
             icon: PhoneIcon,
           },
