@@ -9,7 +9,7 @@ function Cover({ CVData }: { CVData: Data }) {
       {CVData.cover.subheading ? (
         <>
           <hr className=" h-0.5 border-0 bg-white w-80" />
-          <h2 className="text-white text-xl font-semibold">
+          <h2 className="text-white text-xl font-semibold text-center">
             {CVData.cover.subheading}
           </h2>
         </>
